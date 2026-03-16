@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="LibFmt.vcxproj" Id="fad6feb1-acd0-4e99-81c0-9b112c569ba2" />
+</Solution>
