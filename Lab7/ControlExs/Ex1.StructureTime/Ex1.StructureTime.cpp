@@ -27,8 +27,7 @@ struct Time {
         return Time::fromSeconds(diffSec);
     }
 
-    // статический метод для создания Time из секунд 
-    
+    // статический метод для создания Time из секунд     
     static Time fromSeconds(long long totalSec) {
 
         int sign = 1;
