@@ -1,14 +1,14 @@
 ﻿/*
 * Задание 2. Сохранение данных в текстовый файл
-* 
+*
 * В решении упражнения 2 занятия 5 создайте текстовый файл и запишите в него
 * два массива: исходный и отсортированный.
 */
 
-#include <iostream>
-#include <fstream>
-#include <string>
 #include <cstdlib>
+#include <fstream>
+#include <iostream>
+#include <string>
 #include <windows.h>
 
 void fillArrayRandom(int*, const int);
@@ -32,9 +32,9 @@ int main()
 	printArray(a, N);
 	writeToFile(a, N, "arrays.txt", "Array after sorting:");
 
-	
 
-    return 0;
+
+	return 0;
 }
 
 void sortArray(int* array, const int N) {
@@ -92,5 +92,5 @@ void writeToFile(int* arr, const int N, std::string name, std::string message) {
 		out << "\n";
 	}
 	out.close();
-	std::cout << "File "  << name << " has been written!\n" << std::endl;
+	std::cout << "File " << name << " has been written!\n" << std::endl;
 }
