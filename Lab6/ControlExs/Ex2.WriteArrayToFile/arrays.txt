@@ -1,0 +1,4 @@
+Random array before sorting:
+41 67 34 0 69 24 78 58 62 64 
+Array after sorting:
+0 24 34 41 58 62 64 67 69 78 
