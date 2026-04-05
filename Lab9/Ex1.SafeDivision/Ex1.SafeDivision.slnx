@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Ex1.ClassTime.vcxproj" />
+  <Project Path="Ex1.SafeDivision.vcxproj" />
 </Solution>

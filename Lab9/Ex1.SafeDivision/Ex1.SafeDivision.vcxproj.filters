@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ex1.ClassTime.cpp">
+    <ClCompile Include="Ex1.SafeDivision.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

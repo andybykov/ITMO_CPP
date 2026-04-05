@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ea898706-fb24-4dbc-be92-f99b959a578b}</ProjectGuid>
-    <RootNamespace>Ex1ClassTime</RootNamespace>
+    <ProjectGuid>{aaf478da-7088-4636-90bc-1976f41e7782}</ProjectGuid>
+    <RootNamespace>Ex2SafeDivisionInLoop</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ex1.ClassTime.cpp" />
+    <ClCompile Include="Ex2.SafeDivisionInLoop.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
