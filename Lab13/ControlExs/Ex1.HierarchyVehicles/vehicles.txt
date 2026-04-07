@@ -1,0 +1,4 @@
+Car;driving on the road
+Boat;sailing on water
+Plane;flying in the sky
+Amphibious;driving on the road
