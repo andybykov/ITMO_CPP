@@ -31,7 +31,7 @@ concept Container = requires(const T & c) {
 
 // Функция сортировки требует, чтобы контейнер был Container, а его элементы Sortable
 template<typename C>
-requires Container<C> && Sortable<typename C::value_type>
+	requires Container<C>&& Sortable<typename C::value_type>
 
 bool is_sorted(const C& container) {   // передача по константной ссылке 
 	if (container.size() <= 1) return true;   // пустой или из 1 элемента всегда отсортирован
