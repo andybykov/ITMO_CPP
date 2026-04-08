@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Ex2.PolymorphismClasses.vcxproj" Id="8cc70a4e-d338-4bc8-acd9-f7a076aa4356" />
+  <Project Path="Ex3.TemplFuncTupleAnySize.vcxproj" />
 </Solution>
