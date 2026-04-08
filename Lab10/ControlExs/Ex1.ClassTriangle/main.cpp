@@ -2,13 +2,12 @@
 
 
 #include <iostream>
+#include "dot.h"
 #include "triangle_comp.h"
 #include "triangle_aggr.h"
 
 int main()
 {
-    setlocale(LC_ALL, "RU");
-
     // Композиция
     std::cout << "\tExample of relationship - composition" << std::endl;
 

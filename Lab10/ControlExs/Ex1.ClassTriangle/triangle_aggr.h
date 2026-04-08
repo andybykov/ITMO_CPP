@@ -5,7 +5,7 @@
 
 class TriangleAggr {
 public:
-    // принимает ссылки 
+    // принимает ссылки на Dot
     TriangleAggr(const Dot& a, const Dot& b, const Dot& c);
 
     void printSideLengths() const;
@@ -21,8 +21,4 @@ private:
     const Dot& b;
 
     const Dot& c;
-
-    double sideA, sideB, sideC;
-
-    void calculateSides();
 };

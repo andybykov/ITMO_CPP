@@ -7,7 +7,7 @@ class TriangleComp {
 public:
 	// принимает координаты точек
 	TriangleComp(double x1, double y1, double x2, double y2, double x3, double y3);
-	
+
 	void printSideLengths() const;
 
 	double perimeter() const;
@@ -16,8 +16,4 @@ public:
 
 private:
 	Dot a, b, c;  // точки поля класса 
-
-	double sideA, sideB, sideC; // длины сторон 
-
-	void calculateSides(); // длины сторон
 };
